@@ -1,0 +1,18 @@
+<template>
+  <h1>登录页面</h1>
+</template>
+
+<script>
+export default {
+  name: "login",
+  data() {
+    return {};
+  },
+};
+</script>
+
+<style lang="less" scoped>
+h1 {
+  color: red;
+}
+</style>
