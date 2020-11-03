@@ -6,5 +6,10 @@
         "useBuiltIns": "usage"
       }
     ]
-  ]
+  ],
+  "env": {
+    "test": {
+      "presets": [["env", { "targets": { "node": "current" } }]]
+    }
+  }
 }

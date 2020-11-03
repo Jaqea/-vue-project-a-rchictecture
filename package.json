@@ -4,21 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cross-env NODE_ENV=production webpack --config ./webpack/webpack.prod.conf.js",
     "serve": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack/webpack.dev.conf.js --color",
     "eslint": "eslint src --fix",
     "commit": "git-cz"
   },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
-  },
   "husky": {
     "hooks": {
       "pre-commit": "echo 准备提交代码",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "echo 提交代码前需要先进行单元测试 && yarn test"
+      "pre-push": "echo 提交代码前需要先进行单元测试哦！"
     }
   },
   "keywords": [
@@ -26,7 +22,7 @@
     "webpack",
     "eslint",
     "prettier",
-    "commitlint"
+    "commitizen"
   ],
   "author": "Jaqea <jaqea.iii@gmail.com> (https://github.com/Jaqea)",
   "license": "MIT",
