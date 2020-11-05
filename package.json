@@ -1,7 +1,7 @@
 {
   "name": "vue-project-archictecture",
   "version": "0.1.0",
-  "description": "",
+  "description": "基于Webpack搭建的Vue项目脚手架",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
