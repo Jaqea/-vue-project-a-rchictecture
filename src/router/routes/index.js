@@ -7,29 +7,29 @@ function load(component) {
 const routes = [
   {
     path: "/",
-    name: "home",
-    component: load("home"),
+    name: "Home",
+    component: load("Home"),
     meta: {
       middleware: [auth, demo],
     },
   },
   {
     path: "/login",
-    name: "login",
-    component: load("login"),
+    name: "Login",
+    component: load("Login"),
     meta: {
       middleware: [guest],
     },
   },
   {
     path: "/404",
-    name: "notFound",
-    component: load("notFound"),
+    name: "NotFound",
+    component: load("NotFound"),
   },
   {
     path: "*",
     redirect: {
-      name: "home",
+      name: "Home",
     },
   },
 ];

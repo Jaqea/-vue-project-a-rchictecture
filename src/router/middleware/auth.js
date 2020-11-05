@@ -1,7 +1,7 @@
 export default function auth({ next, store }) {
   if (!store.getters.isLogin)
     return next({
-      name: "login",
+      name: "Login",
     });
 
   return next();

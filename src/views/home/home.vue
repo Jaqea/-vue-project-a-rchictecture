@@ -13,7 +13,7 @@ import { mapGetters, mapActions } from "vuex";
 import { Button } from "ant-design-vue";
 
 export default {
-  name: "home",
+  name: "Home",
   data() {
     return {};
   },

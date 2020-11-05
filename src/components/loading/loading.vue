@@ -7,7 +7,7 @@ import { Spin } from "ant-design-vue";
 import { mapGetters } from "vuex";
 
 export default {
-  name: "loading",
+  name: "Loading",
   computed: {
     ...mapGetters(["isRequest"]),
   },
