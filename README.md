@@ -654,13 +654,19 @@ const routes = [
    npm run serve / yarn serve
    ```
 
-4. 完成开发后，进行打包。
+4. 完成开发后，进行代码校验。
+
+   ```cmd
+   npm run eslint / yarn eslint
+   ```
+   
+5. 打包。
 
    ```cmd
    npm run build / yarn serve
    ```
-   
-5. 代码提交到远程个人仓库。
+
+6. 代码提交到远程个人仓库。
 
    ```cmd
    git add .
